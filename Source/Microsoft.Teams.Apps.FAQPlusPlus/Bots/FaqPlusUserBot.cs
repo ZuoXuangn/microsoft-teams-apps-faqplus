@@ -105,6 +105,7 @@ namespace Microsoft.Teams.Apps.FAQPlusPlus.Bots
                 }
 
                 // Get the current culture info to use in resource files
+                //This is the difference with Expert Bot
                 string locale = turnContext?.Activity.Entities?.FirstOrDefault(entity => entity.Type == "clientInfo")?.Properties["locale"]?.ToString();
 
                 if (!string.IsNullOrEmpty(locale))
