@@ -1,6 +1,7 @@
 ﻿// <copyright file="AskAnExpertCard.cs" company="Microsoft">
 // Copyright (c) Microsoft. All rights reserved.
 // </copyright>
+//test
 
 namespace Microsoft.Teams.Apps.FAQPlusPlus.Common.Cards
 {
